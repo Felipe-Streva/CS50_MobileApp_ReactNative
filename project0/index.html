@@ -3,6 +3,7 @@
   <head>
     <title>TODO App</title>
     <link rel="stylesheet" type="text/css" href="./styles.css" />
+    <script defer src="./script.js"></script>
   </head>
   <body>
     <div class="container center">
@@ -11,9 +12,9 @@
         <span>Item count: <span id="item-count">0</span></span>
         <span>Unchecked count: <span id="unchecked-count">0</span></span>
       </div>
-      <button class="button center" onClick="newTodo()">New TODO</button>
+      <button class="button center" id="buttonNew">New TODO</button>
+      <form class="form" id="form"></form>
       <ul id="todo-list" class="todo-list"></ul>
     </div>
-    <script src="./script.js"></script>
   </body>
 </html>

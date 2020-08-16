@@ -64,3 +64,47 @@ ul {
 .todo-container:first-of-type {
   border-top: 1px solid #333;
 }
+
+.form{
+  margin-top: 30px;
+}
+
+.label-todo{
+  margin: 10px;
+}
+
+.input-todo{
+  margin: 10px;
+  padding: 3px;
+  width: 60%;
+}
+
+.button-todo{
+  margin: 10px;
+  padding: 5px;
+}
+
+.li{
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  border: 1px solid;
+  margin: 10px auto ;
+}
+
+@media (max-width:600px){
+  .input-todo{
+    width: 40%;
+  }
+}
+
+@media (max-width: 400px){
+  .input-todo{
+    width: 60%;
+  }
+
+  .label-todo{
+    display: block;
+  }
+}
